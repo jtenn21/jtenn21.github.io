@@ -59,10 +59,7 @@ function typeWriter() {
 
 document.querySelectorAll('.tablinks').forEach(button => {
     button.addEventListener('click', function() {
-
-        document.querySelector('.computer').style.display = 'none';
         
-
         document.getElementById("demo").innerHTML = '';
     });
 });
