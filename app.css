@@ -191,17 +191,6 @@ p {
     font-weight: 300;
 }
 
-.computer {
-    position: absolute;
-    top: 53%;
-    left: 48%;
-    width: 120px;
-    height: 100px;
-    text-align: center;
-
-}
-
-
 .logo{
     height: 200px;
     width: 200px;
