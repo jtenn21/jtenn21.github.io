@@ -89,3 +89,18 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 3000);
+
+const image = document.getElementById('moving-computer');
+
+image.addEventListener('click', () => {
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    const imgWidth = image.offsetWidth;
+    const imgHeight = image.offsetHeight;
+
+    const randomX = Math.floor(Math.random() * (viewportWidth - imgWidth));
+    const randomY = Math.floor(Math.random() * (viewportHeight - imgHeight));
+
+    image.style.transform = `translate(${randomX}px, ${randomY}px)`;
+});
