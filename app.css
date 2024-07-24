@@ -152,15 +152,19 @@ p {
 
 @media (max-width: 600px) {
     .headshot {
-        bottom: 5%;
+        bottom: 0%;
         left: 50%;
+        width: 30%;
+        transform: tranlateX(-50%);
     }
 }
 
 @media (max-width: 400px) {
     .headshot {
-        bottom: 5%;
+        bottom: 0%;
         left: 50%;
+        width: 40%;
+        transform: translateX(-50%);
     }
 }
 
