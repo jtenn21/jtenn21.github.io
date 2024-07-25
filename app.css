@@ -61,7 +61,7 @@ p {
     display: flex;
     justify-content: center;
     top: 25%;
-    left:20%;
+    left:200px;
     transform: translateX(-50%);
     text-align: center;
     border: none;
@@ -109,7 +109,7 @@ p {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 20px;
-    padding-right: 100px;
+    padding-right: 50px;
     transition: 0.3s;
     font-size: large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
