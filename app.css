@@ -57,7 +57,9 @@ p {
 
 .tab {
     overflow: hidden;
-    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: center;
     top: 25%;
     left:20%;
     transform: translateX(-50%);
