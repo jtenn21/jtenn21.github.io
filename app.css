@@ -135,35 +135,33 @@ h2{
 }
 
 .headshot {
-    position: absolute;
-    bottom: 25%;
-    left: 75%;
+    position: relative;
+    margin-top: 20px;
+    bottom: 50%;
+    left: 50%;
     transform: translateX(-50%);
     text-align: center;
     width: 20%;
-    height: 40%;
     max-width: 100%;
     height: auto;
 }
 @media (max-width: 1200px) {
     .headshot {
         bottom: 10%;
-        left: 70%;
+        width: 240px;
     }
 }
 
 @media (max-width: 900px) {
     .headshot {
         bottom: 5%;
-        left: 60%;
     }
 }
 
 @media (max-width: 600px) {
     .headshot {
         bottom: 0%;
-        left: 50%;
-        width: 30%;
+        width: 50%;
         transform: tranlateX(-50%);
     }
 }
@@ -171,7 +169,6 @@ h2{
 @media (max-width: 400px) {
     .headshot {
         bottom: 0%;
-        left: 50%;
         width: 40%;
         transform: translateX(-50%);
     }
